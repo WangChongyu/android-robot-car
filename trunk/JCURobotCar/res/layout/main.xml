@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome to Use JCU Robot RC Car" />
+
+    <TextView
+        android:id="@+id/textViewVarVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/seekBarVar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/textViewVarVal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/seekBarVar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0" />
+    
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/empty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.72"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/stopB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Stop Button" />
+        
+        <ToggleButton
+            android:id="@+id/stopButton"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="stop" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+            
+            <Button
+                android:id="@+id/leftButton"
+                android:layout_width="98dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Left" />
+
+            <Button
+                android:id="@+id/forwardButton"
+                android:layout_width="105dp"
+                android:layout_height="70dp"
+                android:text="Forward" />
+            
+            <Button
+                android:id="@+id/rightButton"
+                android:layout_width="98dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Right" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="105dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="Back" />
+        
+    </LinearLayout>
+
+</LinearLayout>
